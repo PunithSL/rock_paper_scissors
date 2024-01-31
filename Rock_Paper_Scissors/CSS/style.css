@@ -1,0 +1,38 @@
+body{
+    background-color: rgb(25, 25, 25);
+    color: white;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: 200px;
+    margin-top: 200px;
+}
+.title{
+    font-size: 35px;
+    font-weight: bolder;
+    letter-spacing: 2px;
+}
+.image,.image_choose{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+    border: 2px solid white;
+    margin-left: 15px;
+    cursor: pointer;
+}
+.image_choose{
+    width: 70px;
+    height: 70px;
+    border: 2px solid green;
+}
+.js_result{
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+.js_reset{
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 50px;
+}
